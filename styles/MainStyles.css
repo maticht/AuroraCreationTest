@@ -47,7 +47,7 @@ input{
     position: relative;
     z-index:2;
     overflow: hidden;
-    visibility: hidden;
+    display: none;
 }
 
 .menu-btn span {
@@ -102,10 +102,11 @@ input{
 }
 @media (max-width: 1000px) {
     .categoryMenu{
-        visibility: hidden;
+        display: none;
     }
     .menu-btn {
-        visibility: visible;
+        display: block;
+
     }
 }
 @media (max-width: 900px) {

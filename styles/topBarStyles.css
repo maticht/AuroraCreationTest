@@ -67,9 +67,29 @@ span:last-child{
         padding: 2px 0;
     }
     .topBar{
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 0 10vw;
         align-items: center;
     }
+}
+@media (max-width: 600px) {
+    .contactInfoBlock{
+        display: flex;
+        flex-direction: row;
+    }
+    .authorizationBlock {
+        display: flex;
+        flex-direction: row;
+    }
+    .link{
+        font-size: 0;
+    }
+    .authorizationLink{
+        font-size: 0;
+        border-left: solid #ffffff 1px;
+        border-right: solid #ffffff 1px;
+    }
+
 }
