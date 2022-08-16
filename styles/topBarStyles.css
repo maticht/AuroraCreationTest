@@ -7,35 +7,35 @@ html,body{
 span:last-child{
     padding-right: 10px;
 }
-.topBar{
+.top-bar{
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
     border-bottom: solid #D7D7D7 2px;
 }
-.contactInfoBlock{
+.contact-info-block{
     display: flex;
     flex-direction: row;
 }
-.authorizationBlock{
+.authorization-block{
     display: flex;
     flex-direction: row;
 }
-.topBarImg{
+.top-bar-img{
     width: 20px;
     margin-right: 10px;
 }
-.link{
+.contact{
     display: flex;
     align-items: center;
     color: black;
     margin-right: 15px;
 }
-.link:hover{
+.contact:hover{
     opacity: 0.5;
     transition: 0.2s;
 }
-.authorizationLink{
+.authorization{
     display: flex;
     align-items: center;
     color: black;
@@ -44,29 +44,27 @@ span:last-child{
     border-left: solid #D7D7D7 2px;
     border-right: solid #D7D7D7 2px;
 }
-.authorizationLink:hover{
+.authorization:hover{
     opacity: 0.5;
     transition: 0.2s;
 }
 @media (max-width: 850px) {
-    .contactInfoBlock{
+    .contact-info-block{
         display: flex;
         flex-direction: column;
-    }
-    .authorizationBlock {
-        display: flex;
-        flex-direction: column;
-    }
-    .link{
-        margin: 2px 0;
-    }
-    .contactInfoBlock{
         margin-left: 15px;
     }
-    .authorizationLink{
-        padding: 2px 0;
+    .authorization-block {
+        display: flex;
+        flex-direction: column;
     }
-    .topBar{
+    .contact{
+        margin: 2px 0;
+    }
+    .authorization{
+        padding: 2px 15px;
+    }
+    .top-bar{
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -75,21 +73,21 @@ span:last-child{
     }
 }
 @media (max-width: 600px) {
-    .contactInfoBlock{
+    .contact-info-block{
         display: flex;
         flex-direction: row;
     }
-    .authorizationBlock {
+    .authorization-block {
         display: flex;
         flex-direction: row;
     }
-    .link{
+    .contact{
         font-size: 0;
     }
-    .authorizationLink{
+    .authorization{
         font-size: 0;
+        padding: 0;
         border-left: solid #ffffff 1px;
         border-right: solid #ffffff 1px;
     }
-
 }
