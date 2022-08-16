@@ -48,3 +48,28 @@ span:last-child{
     opacity: 0.5;
     transition: 0.2s;
 }
+@media (max-width: 850px) {
+    .contactInfoBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    .authorizationBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    .link{
+        margin: 2px 0;
+    }
+    .contactInfoBlock{
+        margin-left: 15px;
+    }
+    .authorizationLink{
+        padding: 2px 0;
+    }
+    .topBar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10vw;
+        align-items: center;
+    }
+}
