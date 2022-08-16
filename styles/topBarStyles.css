@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', serif;
+    font-size: 14px;
+}
+span:last-child{
+    padding-right: 10px;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    border-bottom: solid #D7D7D7 2px;
+}
+.contactInfoBlock{
+    display: flex;
+    flex-direction: row;
+}
+.authorizationBlock{
+    display: flex;
+    flex-direction: row;
+}
+.topBarImg{
+    width: 20px;
+    margin-right: 10px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-right: 15px;
+}
+.link:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.authorizationLink{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-right: -2px;
+    padding: 15px;
+    border-left: solid #D7D7D7 2px;
+    border-right: solid #D7D7D7 2px;
+}
+.authorizationLink:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
